@@ -1,48 +1,67 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fuzzy+Bubbles:wght@400;700&family=Gabriela&display=swap');
+
 * {
     box-sizing: border-box;
 }
   
 html {
+    background-color: #FFF0C6;
+    color: #5C0F59;
     scroll-behavior: smooth;
+    font-family: 'Fredoka', sans-serif;
 }
   
 [hidden] {
     display: none !important;
 }
 
-/* Nav bar styling */
-ul.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    
-    list-style-type: none;
-    margin: 0;
+/* Styling for buttons */
+.button {
+    /* Background */
+    border-width: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* Font */
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+
+    /* Positioning */
+    margin: 10px;
+    padding: 15px;
+}
+
+/* Div container for buttons */
+.choices {
+    /* Positioning */
+    margin: auto;
+    width: 80%;
     padding: 10px;
     overflow: hidden;
-    background-color: #0C2136;
 }
 
-ul.navbar li {
-    float: right;
+#default {
+    /* Background */
+    background-color: #69CEEE;
 }
 
-ul.navbar li a {
-    display: block;
-    color: white;
+#custom {
+    /* Background */
+    background-color: #FD8C7A;
+}
+
+/* Footer */
+.footer {
+    /* Font */
+    font-size: 10pt;
+
+    /* Positioning */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    margin: 10px 20px;
-    text-decoration: none;
-    transition-duration: 0.3s;
 }
 
-ul.navbar li.register {
-    border-radius: 15px;
-    background-color: #123345;
-}
-
-ul.navbar li a:hover {
-    transform: scale(1.2);
+#title {
+    font-family: 'Gabriela', serif;
 }
