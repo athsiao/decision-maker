@@ -1,3 +1,6 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Fuzzy+Bubbles:wght@400;700&family=Gabriela&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -8,41 +11,4 @@ html {
   
 [hidden] {
     display: none !important;
-}
-
-/* Nav bar styling */
-ul.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #0C2136;
-}
-
-ul.navbar li {
-    float: right;
-}
-
-ul.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    margin: 10px 20px;
-    text-decoration: none;
-    transition-duration: 0.3s;
-}
-
-ul.navbar li.register {
-    border-radius: 15px;
-    background-color: #123345;
-}
-
-ul.navbar li a:hover {
-    transform: scale(1.2);
 }
