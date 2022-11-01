@@ -31,6 +31,12 @@ html {
     padding: 15px;
 }
 
+/* Removed default link styling */
+.button > a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Div container for buttons */
 .choices {
     /* Positioning */
@@ -60,6 +66,12 @@ html {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+/* Input field for custom list */
+#custom-list {
+    width: 300px;
+    height: 400px;
 }
 
 #title {
