@@ -31,6 +31,12 @@ html {
     padding: 15px;
 }
 
+/* Removed default link styling */
+.button > a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Div container for buttons */
 .choices {
     /* Positioning */
